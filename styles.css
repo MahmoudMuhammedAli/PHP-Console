@@ -1,0 +1,44 @@
+body{
+ background-image: url(pics/wheat.png);
+    text-align: left;
+    background-color: rgba(51, 51, 51, 0.123);
+    color:rgb(218, 218, 218);
+    margin-left: 60px;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+h1{
+    color:rgb(209, 209, 209);
+    font-size: 120px;
+    text-align: center;
+    text-shadow: 8px 8px 15px rgb(0, 0, 0),10px 10px 15px rgb(54, 54, 54);
+}
+hr{
+    border: brown;
+    height: 5px;
+}
+.console{
+    display: block;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.61);
+    object-fit: cover;
+    margin-top: 120px;
+    margin-right: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: .2px;
+    padding-bottom: 50px;
+    
+}
+@media(max-width:800px){
+    h1{
+        font-size:70px;
+    }
+    .console{
+        font-size: 20px;
+    }
+    body{
+        font-size: x-large;
+    }
+}
